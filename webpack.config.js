@@ -6,6 +6,8 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const task = process.env.NODE_ENV || 'development';
 const nodePort = process.env.NODE_PORT || '80';
 
+var BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
 module.exports = {
   devtool: 'source-map',
   entry: [
@@ -73,6 +75,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
     new webpack.NamedModulesPlugin(),
+    new BundleAnalyzerPlugin(),
     new ExtractTextPlugin('styles.css'),
     new webpack.DefinePlugin({
       'process.env': {
