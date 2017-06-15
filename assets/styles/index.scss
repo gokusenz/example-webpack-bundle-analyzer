@@ -1,46 +1,5 @@
-@font-face {
-  font-family: 'Superstore-Light';
-  src: url('../fonts/Superstore-Light.otf');
-}
-
-@font-face {
-  font-family: 'Superstore';
-  src: url('../fonts/Superstore-Regular.otf');
-}
-
-@font-face {
-  font-family: 'Superstore-Bold';
-  src: url('../fonts/Superstore-Bold.otf');
-}
-
-@font-face {
-  font-family: 'Superstore-book';
-  src: url('../fonts/Superstore-Book.otf');
-}
-
-@font-face {
-  font-family: 'DBSaiKrok';
-  src: url('../fonts/DB-SaiKrok-X.ttf');
-}
-
-@font-face {
-  font-family: 'DBSaiKrok-Italic';
-  src: url('../fonts/DB-SaiKrok-Italic-X.ttf');
-}
-
-@font-face {
-  font-family: 'DBSaiKrok-Bold-Italic';
-  src: url('../fonts/DB-SaiKrok-BoldItalic-X.ttf');
-}
-
-@font-face {
-  font-family: 'CSPrajad';
-  src: url('../fonts/CSPraJad.otf');
-}
-
 // [bootstrap] override css
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Superstore';
   font-weight: 400;
   line-height: 1.1;
   color: inherit;
@@ -51,7 +10,6 @@ a, a:hover, a:focus {
 }
 
 body {
-  font-family: Superstore-light;
   font-size: 2.5rem;
   color: #424242;
 
@@ -97,10 +55,6 @@ body {
   input, select {
     font-family: 'Microsoft Sans Serif';
     font-size: 1rem;
-  }
-
-  select {
-    font-family: 'CSPrajad';
   }
 }
 
