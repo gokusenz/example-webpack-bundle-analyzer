@@ -1,5 +1,5 @@
 {
-  "name": "ssr",
+  "name": "webpack-bundle-analyzer",
   "version": "0.0.1",
   "description": "ssr",
   "main": "index.js",
